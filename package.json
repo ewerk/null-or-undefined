@@ -4,7 +4,7 @@
   "description": "Type safe utility functions for checking if a value is null or undefined or neither null nor undefined",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/ewerk/null-or-undefined/issues"
   },
-  "homepage": "https://github.com/ewerk/null-or-undefined#readme"
+  "homepage": "https://github.com/ewerk/null-or-undefined#readme",
+  "dependencies": {
+    "typescript": "> 4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "peerDependencies": {
+    "typescript": "> 4"
+  }
 }
