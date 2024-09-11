@@ -1,0 +1,22 @@
+{
+  "name": "null-or-undefined",
+  "version": "1.0.0",
+  "description": "Type safe utility functions for checking if a value is null or undefined or neither null nor undefined",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewerk/null-or-undefined.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Florian Symanowski <iceteabottle@gmail.com> (https://github.com/iceteabottle)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewerk/null-or-undefined/issues"
+  },
+  "homepage": "https://github.com/ewerk/null-or-undefined#readme"
+}
