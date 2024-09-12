@@ -3,9 +3,6 @@
 Type safe utility functions for checking nullish values.
 It's dependency free and has no dependencies on external libraries.
 
-> [!CAUTION]
-> WIP! This package is still in development and not yet published to npm.
-
 ## Installation
 
 You can install this package using npm:
