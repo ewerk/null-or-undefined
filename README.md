@@ -3,6 +3,9 @@
 Type safe utility functions for checking nullish values.
 It's dependency free and has no dependencies on external libraries.
 
+> [!CAUTION]
+> WIP! This package is still in development and not yet published to npm.
+
 ## Installation
 
 You can install this package using npm:
@@ -66,6 +69,13 @@ This project is licensed under the MIT License.
 ## Author
 
 Florian Symanowski ([@iceteabottle](https://github.com/iceteabottle))
+
+## Contributors
+
+- [Bartosz Staszulonek](https://github.com/barsta1)
+- [Robert Kania](https://github.com/RobusK)
+- [Johannes Voigt](https://github.com/jvoigt)
+- [Robin Beier](https://github.com/rbeier)
 
 ## Links
 
