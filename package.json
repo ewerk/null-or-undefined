@@ -1,6 +1,6 @@
 {
   "name": "@ewerk/null-or-undefined",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Type safe utility functions for checking nullish values",
   "main": "src/index.ts",
   "scripts": {
