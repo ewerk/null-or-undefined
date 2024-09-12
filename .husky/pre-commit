@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# run eslint fix for staged files
+npx lint-staged --relative
