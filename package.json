@@ -1,7 +1,7 @@
 {
   "name": "@ewerk/null-or-undefined",
   "version": "1.0.0",
-  "description": "Type safe utility functions for checking if a value is null or undefined or neither null nor undefined",
+  "description": "Type safe utility functions for checking nullish values",
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
