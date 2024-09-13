@@ -1,5 +1,7 @@
 # @ewerk/null-or-undefined
 
+[![NPM Version](https://img.shields.io/npm/v/%40ewerk%2Fnull-or-undefined?registry_uri=https%3A%2F%2Fregistry.npmjs.org)](https://www.npmjs.com/package/@ewerk/null-or-undefined)
+
 Type safe utility functions for checking nullish values.
 It's dependency free and has no dependencies on external libraries.
 
