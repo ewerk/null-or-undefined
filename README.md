@@ -57,6 +57,25 @@ const titleNew$: string = value$.pipe(
 );
 ```
 
+### `hasEmptyValue`
+
+This function checks if a value is considered "empty". A value is considered empty if it is an empty array, `null`, `undefined`, or an empty string.
+This function could be useful for validating user input.
+
+```typescript
+import { hasEmptyValue } from '@ewerk/null-or-undefined';
+
+console.log(hasEmptyValue('')); // true
+console.log(hasEmptyValue([])); // true
+console.log(hasEmptyValue(null)); // true
+console.log(hasEmptyValue(undefined)); // true
+
+console.log(hasEmptyValue(false)); // false
+console.log(hasEmptyValue(0)); // false
+console.log(hasEmptyValue('test string')); // false
+console.log(hasEmptyValue(['test', 'string'])); // false
+```
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
