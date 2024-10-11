@@ -4,8 +4,8 @@ describe('hasEmptyValue helper', () => {
   it('should return true, if "empty" value was provided', () => {
     expect(hasEmptyValue('')).toBe(true);
     expect(hasEmptyValue([])).toBe(true);
-    expect(hasEmptyValue(null as unknown as string)).toBe(true);
-    expect(hasEmptyValue(undefined as unknown as string)).toBe(true);
+    expect(hasEmptyValue(null)).toBe(true);
+    expect(hasEmptyValue(undefined)).toBe(true);
   });
 
   it('should return false, if "non-empty" value was provided', () => {
