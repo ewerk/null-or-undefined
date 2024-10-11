@@ -1,5 +1,4 @@
 const esbuild = require('esbuild');
-const { dependencies } = require('./package.json');
 
 const commonConfig = {
   entryPoints: ['./src/index.ts'],
