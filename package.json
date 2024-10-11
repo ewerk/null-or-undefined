@@ -1,6 +1,6 @@
 {
   "name": "@ewerk/null-or-undefined",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Type safe utility functions for checking nullish values",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
