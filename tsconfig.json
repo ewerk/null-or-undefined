@@ -3,18 +3,14 @@
     "module": "ES2020",
     "esModuleInterop": true,
     "target": "es2020",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "sourceMap": true,
     "outDir": "dist",
     "rootDir": "src",
     "strict": true,
     "declaration": true,
-    "types": ["jest"]
+    "skipLibCheck": true,
+    "types": ["@voidzero-dev/vite-plus-test/globals"]
   },
-  "include": [
-    "src"
-  ],
-  "lib": [
-    "es2020"
-  ]
+  "include": ["src"]
 }

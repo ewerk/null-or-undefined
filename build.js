@@ -2,10 +2,7 @@ const esbuild = require('esbuild');
 
 const commonConfig = {
   entryPoints: ['./src/index.ts'],
-  target: [
-    'esnext',
-    'node20',
-  ],
+  target: ['esnext', 'node20'],
   bundle: true,
   minify: true,
   treeShaking: true,

@@ -12,9 +12,6 @@ describe('hasEmptyValue helper', () => {
     expect(hasEmptyValue(false)).toBe(false);
     expect(hasEmptyValue(0)).toBe(false);
     expect(hasEmptyValue('test string')).toBe(false);
-    expect(hasEmptyValue([
-      'test',
-      'string',
-    ])).toBe(false);
+    expect(hasEmptyValue(['test', 'string'])).toBe(false);
   });
 });
