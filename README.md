@@ -3,7 +3,7 @@
 [![NPM Version](https://img.shields.io/npm/v/%40ewerk%2Fnull-or-undefined?registry_uri=https%3A%2F%2Fregistry.npmjs.org)](https://www.npmjs.com/package/@ewerk/null-or-undefined)
 
 Type safe utility functions for checking nullish values.
-It's dependency free and has no dependencies on external libraries.
+It's dependency-free and has no dependencies on external libraries.
 
 ## Installation
 
@@ -41,19 +41,19 @@ if (neitherNullNorUndefined(value)) {
 }
 
 // Example with RxJS
-const value$: Observable<{title: string} | undefined> = of(undefined);
+const value$: Observable<{ title: string } | undefined> = of(undefined);
 
 // before
 const titleOld$: string = value$.pipe(
   filter((value) => value !== null && value !== undefined),
-  map((value) => value as {title: string}), // cast is necessary to get rid of the undefined type
+  map((value) => value as { title: string }), // cast is necessary to get rid of the undefined type
   map((value) => value.title),
 );
 
 // after
 const titleNew$: string = value$.pipe(
   filter(neitherNullNorUndefined),
-  map((value) => value.title)
+  map((value) => value.title),
 );
 ```
 
