@@ -28,14 +28,12 @@
   "scripts": {
     "test": "vp test",
     "lint": "vp check --fix",
-    "build": "rm -rf dist && vp build && tsc --project tsconfig.build.json --emitDeclarationOnly",
-    "release": "release-it"
+    "build": "rm -rf dist && vp build && tsc --project tsconfig.build.json --emitDeclarationOnly"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",
     "@voidzero-dev/vite-plus-core": "^0.1.24",
     "@voidzero-dev/vite-plus-test": "^0.1.24",
-    "release-it": "^20.2.0",
     "typescript": "^6.0.3",
     "vite-plus": "^0.1.24"
   },
